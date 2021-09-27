@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, "Segoe UI", Tahoma, sans-serif;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1000px;
+  margin: auto;
+  height: 100%;
+}
+@media (min-width: 576px) {
+  .container .container {
+    width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container .container {
+    width: 1170px;
+  }
+}
+.container .navbar-expand-lg {
+  background-color: indigo;
+}
+.container .navbar-expand-lg {
+  flex-flow: row nowrap;
+  justify-content: flex-end !important;
+}
+.container .navbar-dark .navbar-nav .nav-link {
+  color: white !important;
+}
+
+.navbar-expand-lg {
+  background-color: indigo;
+}
+
+.navbar-expand-lg {
+  flex-flow: row nowrap;
+  justify-content: flex-end !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white !important;
+}
+
+header,
+#intro {
+  height: 100%;
+}
+
+#intro {
+  background: url("") no-repeat center center fixed;
+  background-size: cover;
+}
+#intro img {
+  margin-top: 300px;
+}
+
+input.form-control.form-control-lg {
+  min-width: 35em;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+button .btn .btn-outline-white {
+  border-radius: 10px;
+}
+
+.RNmpXc [type=button], [type=reset], [type=submit], button {
+  height: calc(1.5em + 1rem + 2px);
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 10px;
+  border: 1px solid #d6dde4;
+}
+
+.form-control-lg {
+  border-radius: 10px !important;
+}/*# sourceMappingURL=style.css.map */
