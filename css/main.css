@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, "Segoe UI", Tahoma, sans-serif;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1000px;
+  margin: auto;
+  height: 100%;
+}
+
+@media (min-width: 576px) {
+  .container {
+    width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.navbar-expand-lg {
+  background-color: indigo;
+}
+
+.navbar-expand-lg {
+  flex-flow: row nowrap;
+  justify-content: flex-end !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white !important;
+}
+
+header,
+#intro {
+  height: 100%;
+}
+
+#intro {
+  background: url("") no-repeat center center fixed;
+  background-size: cover;
+}
+#intro img {
+  margin-top: 300px;
+}
+
+.form-control-lg {
+  width: 763px !important;
+}
+
+.a9nkvf {
+  /* color: #4285f4; */
+  color: #4285f4;
+  font: 18px/18px roboto-regular, arial, sans-serif;
+  position: relative;
+  left: -63px;
+  top: 192px;
+  white-space: nowrap;
+}
+
+div#searchform.jhp {
+  margin-top: 0;
+}
+
+@media only screen and (max-height: 768px) {
+  .hp #searchform {
+    top: 269px;
+  }
+}
+.hp #searchform {
+  position: absolute;
+  top: 311px;
+}
+
+#searchform {
+  width: 100%;
+}
+
+.a4bIc {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+/*.big .tsf {
+    width: 1139px;
+}*/
+.tsf {
+  width: 833px;
+  margin: 20px auto;
+}
+
+/* .form-control-lg {
+    border-radius: 10px !important;
+} */
+.RNNXgb {
+  display: flex;
+  border-radius: 15px;
+  border: 1px solid #aaaaaa;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.lsb {
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #aaa;
+  margin-top: 20px !important;
+  margin-left: -50px;
+}
+
+.FAuhyb {
+  background: none;
+  color: #4285f4;
+  height: 24px;
+  width: 24px;
+  margin: auto;
+}
+
+.z1asCe {
+  display: inline-block;
+  fill: currentColor;
+  height: 24px;
+  line-height: 24px;
+  position: relative;
+  width: 24px;
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */

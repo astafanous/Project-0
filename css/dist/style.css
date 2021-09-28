@@ -1,4 +1,6 @@
 * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -41,6 +43,9 @@ header,
 
 #intro {
   background: url("") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 #intro img {
@@ -52,7 +57,9 @@ header,
 }
 
 .navbar-expand-lg {
+  -ms-flex-flow: row nowrap;
   flex-flow: row nowrap;
+  -ms-flex-pack: start;
   justify-content: flex-end !important;
 }
 
@@ -92,4 +99,4 @@ ntp-realbox-icon {
   left: 30px;
   position: absolute;
   top: 295px;
-}/*# sourceMappingURL=style.css.map */
+}

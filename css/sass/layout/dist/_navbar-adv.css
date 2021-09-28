@@ -1,0 +1,14 @@
+.navbar-expand-lg {
+  background-color: #5656f06e;
+}
+
+.navbar-expand-lg {
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -ms-flex-pack: start;
+  justify-content: flex-end !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white !important;
+}

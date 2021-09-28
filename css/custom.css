@@ -43,12 +43,13 @@ header,
   background: url("") no-repeat center center fixed;
   background-size: cover;
 }
-#intro img {
-  margin-top: 300px;
+
+img {
+  margin: 110px 0 20px 20px !important;
 }
 
 .navbar-expand-lg {
-  background-color: indigo;
+  background-color: #5656f06e;
 }
 
 .navbar-expand-lg {
@@ -60,36 +61,39 @@ header,
   color: white !important;
 }
 
-input.form-control.form-control-lg {
-  padding: 0.5rem 3rem;
-  margin-bottom: 20px;
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  margin-left: 10px;
+}
+
+.lOTAE0 {
+  color: #666;
+  font-family: monospace;
+  font-size: 11px;
+}
+
+.lOTAE {
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.jfk-textinput {
+  border-radius: 15px;
+  border: 2px solid #d9d9d9;
+  border-top: 2px solid #c0c0c0;
+  font-size: 13px;
+  height: 40px;
+  padding: 2px 15px;
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+[type=button], [type=reset], [type=submit], button {
   margin-top: 20px;
-  width: 763px !important;
-}
-
-button .btn .btn-outline-white {
+  color: white;
+  background-color: blue;
+  margin-right: 255px;
   border-radius: 10px;
-}
-
-.RNmpXc [type=button], [type=reset], [type=submit], button {
-  height: calc(1.5em + 1rem + 2px);
-  padding: 0.5rem 1rem;
-  font-size: 1.25rem;
-  line-height: 1.5;
-  border-radius: 10px;
-  border: 1px solid #d6dde4;
-}
-
-.form-control-lg {
-  border-radius: 10px !important;
-}
-
-input, ntp-realbox-icon {
-  z-index: 5;
-}
-
-ntp-realbox-icon {
-  left: 30px;
-  position: absolute;
-  top: 295px;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=custom.css.map */

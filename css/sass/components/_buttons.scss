@@ -1,7 +1,9 @@
 input.form-control.form-control-lg {
-	min-width: 35em; 
+	padding: .5rem 3rem;
 	margin-bottom: 20px;
 	margin-top: 20px;
+    width: 763px !important;
+
 }
 button .btn .btn-outline-white {
 	border-radius: 10px;
@@ -16,4 +18,14 @@ button .btn .btn-outline-white {
     }
 .form-control-lg {
 	border-radius: 10px !important;
+}
+input, ntp-realbox-icon {
+    z-index: 5;
+}
+ntp-realbox-icon {
+  
+    left: 30px;
+    position: absolute;
+    top: 295px;
+    
 }
